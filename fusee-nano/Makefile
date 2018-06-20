@@ -6,7 +6,7 @@ PKG_RELEASE:=1
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE:=$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://github.com/DavidBuchanan314/fusee-nano/archive/
+PKG_SOURCE_URL:=https://github.com/mariogamer2/fusee-nano/archive/
 PKG_CAT:=zcat
 
 include $(INCLUDE_DIR)/package.mk
@@ -15,7 +15,7 @@ define Package/fusee-nano
 	SECTION:=utils
 	CATEGORY:=Utilities
 	TITLE:=Tiny FG exploit implementation
-	URL:=https://github.com/DavidBuchanan314/fusee-nano/
+	URL:=https://github.com/mariogamer2/fusee-nano/
 endef
 
 define Package/fusee-nano/description
